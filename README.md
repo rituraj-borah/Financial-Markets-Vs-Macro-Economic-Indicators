@@ -1,5 +1,5 @@
 # Financial Markets Vs Macro-Economic Indicators of USA: 
-(_Tools used: Python, Excel, Tableau and Data download using API_)
+## (_Tools used: Python, Excel, Tableau and Data download using API_)
 
 ## Overview
 This Capstone project explores the intricate relationships between financial markets and macro-economic indicators in the United States through comprehensive data analysis and visualization. Utilizing a blend of Python for data processing, Excel for data manipulation, and Tableau for insightful visualization, this study aims to uncover patterns, trends, and potential correlations that exist within the financial landscape and broader economic indicators.
