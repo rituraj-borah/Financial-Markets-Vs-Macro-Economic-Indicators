@@ -11,7 +11,7 @@ To provide an accessible way for users to interact with the findings through dyn
 ## Methodology
 - **Data Collection**: Gathered historical data on financial market indices (such as the S&P 500, Dow Jones, NASDAQ) and macro-economic indicators (GDP, unemployment rate, inflation rate, etc.) relevant to the USA.
 - **Data Processing and Analysis**: Utilized Python to clean, process, and analyze the collected data. Python's powerful libraries such as Pandas and NumPy were instrumental in handling large datasets efficiently.
-- **Data Manipulation**: Employed Microsoft Excel for additional data manipulation tasks, enabling a more granular approach to data preparation and preliminary analysis.
+- **Data Manipulation**: Employed Python and Microsoft Excel for additional data manipulation tasks, enabling a more granular approach to data preparation and preliminary analysis.
 - **Visualization**: Leveraged Tableau's robust visualization tools to create interactive dashboards and graphs that illustrate the relationships and findings derived from the analysis. These visualizations are designed to be user-friendly, allowing for an intuitive exploration of the data.
 
 ## Results
