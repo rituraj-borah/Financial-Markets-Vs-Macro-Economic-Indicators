@@ -36,8 +36,6 @@ Analyze time series trends, visualize data, check for correlations, forecast pri
 
 ![image](https://github.com/vidd01/Financial-Markets-Economic-Indicators-Analysis-/assets/122332733/55e18bce-fe6e-4969-bda5-4fb1cbb1e109)
 
-![image](https://github.com/rituraj-borah/Capstone_Financial-Markets-Vs-Macro-Economic-Indicators-of-USA-CANADA-INDIA/blob/main/Capstone-2/banner.jpg)
-
 
 #### Financial Market Indices:
 This tab provides an overview of major financial market indices such as the Dow Jones, S&P 500, NASDAQ, and others. 
