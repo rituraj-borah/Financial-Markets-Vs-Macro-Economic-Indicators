@@ -1,0 +1,17 @@
+finta
+keras
+matplotlib
+numpy
+pandas
+pandas_datareader
+Pillow
+plotly
+prophet
+scikit_learn
+seaborn
+statsmodels
+stocknews
+streamlit
+xgboost
+yfinance
+tensorflow
