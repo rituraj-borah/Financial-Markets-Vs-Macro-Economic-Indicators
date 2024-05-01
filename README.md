@@ -1,25 +1,56 @@
-# Financial Markets Vs Macro-Economic Indicators of USA: 
-## (_Tools used: Python, Excel, Tableau and Data download using API_)
+## Financial Market Versus Macro Economic Indicator of USA, Canada, India
+### (_Tools used: Python, Excel, Tableau, API, Pandas-DataReader, Streamlit_)
 
-## Overview
-This Capstone project explores the intricate relationships between financial markets and macro-economic indicators in the United States through comprehensive data analysis and visualization. Utilizing a blend of Python for data processing, Excel for data manipulation, and Tableau for insightful visualization, this study aims to uncover patterns, trends, and potential correlations that exist within the financial landscape and broader economic indicators.
+### Description
+This project comprises a web-based dashboard designed to provide comprehensive financial indices and macroeconomic data analysis using Python. 
+The application includes various features such as data visualization, statistical analysis, sentiment analysis, and correlation analysis to explore stock market and macroeconomic relations.
 
-## Objectives
-To analyze the behavior of key financial market indices in relation to major macro-economic indicators such as GDP growth rates, unemployment rates, inflation rates, and others.
-To identify and visualize trends, correlations, and anomalies between the financial markets and macro-economic indicators over a specified period.
-To provide an accessible way for users to interact with the findings through dynamic and informative visualizations in Tableau.
+### Installation
+To run this project, you will need to install several Python libraries. You can install the necessary dependencies with the following command:
+```
+pip install -r requirements.txt
+```
+### Usage
+To start the application, run the following command in your terminal:
+```
+streamlit run Streamlit_Capstone_v1.py
+```
+This will start a web server and open the dashboard in your default web browser.
 
-## Methodology
-- **Data Collection**: Gathered historical data on financial market indices (such as the S&P 500, Dow Jones, NASDAQ) and macro-economic indicators (GDP, unemployment rate, inflation rate, etc.) relevant to the USA.
-- **Data Processing and Analysis**: Utilized Python to clean, process, and analyze the collected data. Python's powerful libraries such as Pandas and NumPy were instrumental in handling large datasets efficiently.
-- **Data Manipulation**: Employed Python and Microsoft Excel for additional data manipulation tasks, enabling a more granular approach to data preparation and preliminary analysis.
-- **Visualization**: Leveraged Tableau's robust visualization tools to create interactive dashboards and graphs that illustrate the relationships and findings derived from the analysis. These visualizations are designed to be user-friendly, allowing for an intuitive exploration of the data.
+### Features
+- Historical Data Analysis: Analyze historical stock prices and financial metrics using various statistical techniques.
+- Forecasting Models: Leverage models like XGBoost and LSTM (Long Short-Term Memory Networks) to predict future stock prices based on historical data.
+- Sentiment Analysis: Incorporate sentiment analysis to understand the market sentiment around particular stocks based on news articles and headlines.
+- Interactive Visualizations: Use Plotly and Streamlit for dynamic and interactive data visualization, making it easier for users to analyze and digest information.
 
-## Results
-The project successfully identifies significant patterns and correlations between the financial markets and macro-economic indicators, providing insights into how economic trends can impact financial market performance and vice versa. The interactive dashboards in Tableau enable users to delve into specific areas of interest, offering a personalized exploration of the data.
+### Technology Stack
+- Python: Primary programming language.
+- Streamlit: For creating the web-based interface.
+- Plotly: Used for interactive charts and graphs.
+- XGBoost & LSTM: For building predictive models.
+- Prophet: For forecasting time series data.
+- Pandas & NumPy: For data manipulation and numerical calculations.
 
-## Conclusion
-This Capstone project underscores the importance of integrating data analysis and visualization techniques to understand complex relationships between financial markets and macro-economic indicators. By utilizing Python, Excel, and Tableau, this study offers a comprehensive toolkit for analyzing and presenting data in a way that is both informative and accessible to a broad audience.
+### Web App Overview
+Analyze time series trends, visualize data, check for correlations, forecast prices using machine learning, and gain insights from news sentiment analysis.
 
-## Future Work
-Suggestions for future research include expanding the dataset to include data for country like India and Canada economic indicators, exploring predictive modeling techniques to forecast market trends, and creating an end-to-end pipeline to automate the process using Azure and Power BI.
+![image](https://github.com/vidd01/Financial-Markets-Economic-Indicators-Analysis-/assets/122332733/55e18bce-fe6e-4969-bda5-4fb1cbb1e109)
+
+
+
+#### Financial Market Indices:
+This tab provides an overview of major financial market indices such as the Dow Jones, S&P 500, NASDAQ, and others. 
+Users can view real-time data, historical charts, and trends that help in understanding the current market conditions. 
+#### Macro-Economic Indicators:
+This section serves as a pulse check for the broader market, offering insights into overall economic health and investor sentiment.
+Focus on key macro-economic indicators such as Gross Domestic Product (GDP), inflation, unemployment rates, and others that influence financial markets and investment decisions. 
+This tab allows users to explore these indicators over time and across different geographies, providing a macroeconomic context that affects asset prices and market movements.
+#### Correlation Matrix - Heatmap:
+This tab features a heatmap of correlation matrices that show the relationship between different indices or macro-economic indicators. 
+It helps users identify which variables move together, which are inversely related, and which are unrelated. 
+This tool is invaluable for risk management and portfolio diversification, as it helps in understanding the co-movements of assets.
+#### Machine Learning based Price Forecast:
+Here, users can access predictions for asset prices based on machine learning models. 
+This tab features models like XGBoost, LSTM, and other time series models including analyze historical data to forecast future prices. It provides a data-driven approach to estimate future market behavior, which can be essential for planning investment strategies.
+#### Company News and Sentiment Analysis:
+This section aggregates recent news articles related to specific companies or the overall market. It includes sentiment analysis to gauge the tone and sentiment of the news (positive, neutral, or negative) and its potential impact on the stock prices. This helps investors stay updated with the latest developments and understand how these could affect their investment decisions.
