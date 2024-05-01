@@ -1,5 +1,4 @@
 ## Financial Market Versus Macro Economic Indicator of USA, Canada, India
-### (_Tools used: Python, Excel, Tableau, API, Pandas-DataReader, Streamlit_)
 
 ### Description
 This project comprises a web-based dashboard designed to provide comprehensive financial indices and macroeconomic data analysis using Python. 
@@ -37,6 +36,7 @@ Analyze time series trends, visualize data, check for correlations, forecast pri
 ![image](https://github.com/vidd01/Financial-Markets-Economic-Indicators-Analysis-/assets/122332733/55e18bce-fe6e-4969-bda5-4fb1cbb1e109)
 
 
+
 #### Financial Market Indices:
 This tab provides an overview of major financial market indices such as the Dow Jones, S&P 500, NASDAQ, and others. 
 Users can view real-time data, historical charts, and trends that help in understanding the current market conditions. 
@@ -53,3 +53,7 @@ Here, users can access predictions for asset prices based on machine learning mo
 This tab features models like XGBoost, LSTM, and other time series models including analyze historical data to forecast future prices. It provides a data-driven approach to estimate future market behavior, which can be essential for planning investment strategies.
 #### Company News and Sentiment Analysis:
 This section aggregates recent news articles related to specific companies or the overall market. It includes sentiment analysis to gauge the tone and sentiment of the news (positive, neutral, or negative) and its potential impact on the stock prices. This helps investors stay updated with the latest developments and understand how these could affect their investment decisions.
+
+
+
+
