@@ -63,7 +63,7 @@ def tabs():
         country = st.selectbox('', ['USA', 'Canada', 'India'])
 
         st.write("<h3>Select Time Period</h3>", unsafe_allow_html=True)
-        time_period = st.selectbox('Choose period:', ['3y', '5y', '10y'])
+        time_period = st.selectbox('Choose period:', ['2y', '5y', '10y'])
 
         if country == 'India':
             ticker = '^NSEI'  # Nifty 50 ticker

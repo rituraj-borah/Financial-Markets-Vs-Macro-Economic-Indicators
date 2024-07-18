@@ -6,6 +6,7 @@ import base64
 from PIL import Image
 from stocknews import StockNews
 from math import sqrt
+import keras
 ## DateTime libraries
 # from datetime import date as dt
 import datetime
